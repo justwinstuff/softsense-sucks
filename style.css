@@ -11,3 +11,11 @@ body {
   background-color: purple;
   color: white;
 }
+
+a {
+  color: blue;
+  text-decoration: none;
+  background: white;
+  border-radius: 2px;
+  padding: 1px;
+}

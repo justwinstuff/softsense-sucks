@@ -1,21 +1,28 @@
 body {
-  margin: 0;
-  padding: 0;
-  margin: 0;
+  padding: 10px;
+  margin: 20px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: purple;
   color: white;
 }
 
 a {
-  color: blue;
-  text-decoration: none;
-  background: white;
+  color: white;
+  text-decoration: underline;
   border-radius: 2px;
   padding: 1px;
+}
+
+img {
+  border-radius: 9px;
+  margin-top: 10px;
+  height: 500px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  margin: 0;
 }
